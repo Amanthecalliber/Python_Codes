@@ -1,0 +1,42 @@
+#Sorting the list using the second element of the tuple in ascending order
+
+li = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+sorted_li = sorted(li , key=lambda li : li[2])
+
+print (sorted_li)
+
+
+OR
+
+
+from operator import itemgetter
+
+li = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+sorted_li = sorted(li, key=itemgetter(1))
+
+print (sorted_li)
+
+
+
+
+#Sorting the list using the second element of the tuple in descending order
+
+li = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+sorted_li = sorted(li , key=lambda li : li[2], reverse = True)
+
+print (sorted_li)
+
+
+OR
+
+
+from operator import itemgetter
+
+li = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+sorted_li = sorted(li, key=itemgetter(1), reverse = True)
+
+print (sorted_li)
