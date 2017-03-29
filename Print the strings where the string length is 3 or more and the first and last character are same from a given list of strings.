@@ -5,3 +5,9 @@ for x in li :
     y = len(x)
     if x[0] == x[y-1] :
       print (x)
+
+OR
+
+for x in li :
+  if len(x) > 2 and x[0] == x[-1] :
+      print (x)
