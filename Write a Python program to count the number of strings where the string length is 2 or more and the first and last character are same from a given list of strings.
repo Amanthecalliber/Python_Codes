@@ -1,0 +1,7 @@
+li = ['abc', 'xyz', 'aba', '1221', 'a', 'z', 'happy', 'zzz']
+
+for x in li :
+  if len(x) > 2 :
+    y = len(x)
+    if x[0] == x[y-1] :
+      print (x)
