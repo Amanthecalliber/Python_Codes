@@ -1,0 +1,15 @@
+#To check if a list is empty or not
+
+li = []
+
+if not li :
+  print ("List is empty!")
+  
+  
+OR
+  
+  
+li = []
+
+if len(li) == 0 :
+  print ("List is Empty!")
