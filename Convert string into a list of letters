@@ -1,0 +1,5 @@
+#Convert string into a list of letters
+
+from collections import OrderedDict
+x = list(OrderedDict.fromkeys('abracadabra'))
+print (x)
