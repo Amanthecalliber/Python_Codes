@@ -1,0 +1,5 @@
+#Generate all permutations of a list in Python
+
+import itertools
+
+print (list(itertools.permutations(['Red', 'Green', 'Blue'])))
