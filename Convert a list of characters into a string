@@ -1,0 +1,7 @@
+#Convert a list of characters into a string
+
+li = ['h','a', 'p', 'p', 'y']
+
+z = ''.join(li)
+
+print (z)
