@@ -1,0 +1,6 @@
+#Difference between the two lists
+
+li1 = [1, 4, 7, 90, 34, 65, 32]
+li2 = [7, 32, 87, 22, 65]
+
+print (list(set(li1) - set(li2)))
