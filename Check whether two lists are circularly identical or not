@@ -1,0 +1,11 @@
+# Check whether two lists are circularly identical or not
+
+list1 = [10, 10, 0, 0, 10]
+list2 = [10, 10, 10, 0, 0]
+list3 = [1, 10, 10, 0, 0]
+
+result1 = ''.join(map(str, list2)) in ''.join(map(str, list1*2))
+
+result2 = ''.join(map(str, list3)) in ''.join(map(str, list1 * 2))
+
+print(result1, result2)
