@@ -1,0 +1,7 @@
+#Select an item randomly from a list
+
+import random
+
+num = [10, 30, 45, 100, 32, 54, 67, 92]
+
+print (random.choice(num))
