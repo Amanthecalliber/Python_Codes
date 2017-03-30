@@ -1,0 +1,6 @@
+#Access the index of a list
+
+li = [1, 4, 7, 90, 34, 65, 32]
+
+for num_index, num_val in enumerate (li) :
+  print (num_index, num_val)
